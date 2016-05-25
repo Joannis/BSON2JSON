@@ -2,7 +2,7 @@
 
 > Swift conversions between PlanTeam.BSON and C7.JSON
 
-Simple two extensions to convert between BSON and JSON
+Simple two extensions to convert between BSON and JSON, based on [MongoDB's description](https://docs.mongodb.com/v3.0/reference/mongodb-extended-json/).
 
 ```swift
 let myJSON = myBSON.toJSON()
