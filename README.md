@@ -7,9 +7,9 @@
 [![Blog](https://img.shields.io/badge/blog-honzadvorsky.com-green.svg)](http://honzadvorsky.com)
 [![Twitter Czechboy0](https://img.shields.io/badge/twitter-czechboy0-green.svg)](http://twitter.com/czechboy0)
 
-> Swift conversions between PlanTeam.BSON and C7.JSON
+> Simple two extensions to convert between [PlanTeam.BSON](https://github.com/PlanTeam/BSON) and [C7.JSON](https://github.com/open-swift/C7/blob/master/Sources/JSON.swift)
 
-Simple two extensions to convert between BSON and JSON, based on [MongoDB's description](https://docs.mongodb.com/v3.0/reference/mongodb-extended-json/).
+Based on [MongoDB's BSON description](https://docs.mongodb.com/v3.0/reference/mongodb-extended-json/).
 
 ```swift
 let myJSON = myBSON.toJSON()
