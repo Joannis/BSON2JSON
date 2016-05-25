@@ -1,7 +1,7 @@
 import XCTest
-@testable import BSONJSON
+@testable import BSON2JSON
 
-class BSONJSONTests: XCTestCase {
+class BSON2JSONTests: XCTestCase {
 
 	func testExample() {
 		// This is an example of a functional test case.
@@ -9,8 +9,8 @@ class BSONJSONTests: XCTestCase {
 	}
 
 }
-extension BSONJSONTests {
-	static var allTests : [(String, BSON-JSONTests -> () throws -> Void)] {
+extension BSON2JSONTests {
+	static var allTests: [(String, (BSON2JSONTests) -> () throws -> Void)] {
 		return [
 			("testExample", testExample),
 		]
