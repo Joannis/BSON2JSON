@@ -3,4 +3,5 @@ import XCTest
 
 XCTMain([
 	 testCase(BSON2JSONTests.allTests),
+	 testCase(JSON2BSONTests.allTests),
 ])

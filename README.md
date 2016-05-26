@@ -7,12 +7,16 @@
 [![Blog](https://img.shields.io/badge/blog-honzadvorsky.com-green.svg)](http://honzadvorsky.com)
 [![Twitter Czechboy0](https://img.shields.io/badge/twitter-czechboy0-green.svg)](http://twitter.com/czechboy0)
 
-> Simple extension to convert from [PlanTeam.BSON](https://github.com/PlanTeam/BSON) to [C7.JSON](https://github.com/open-swift/C7/blob/master/Sources/JSON.swift)
+> Simple extension to convert from [PlanTeam.BSON](https://github.com/PlanTeam/BSON) to [C7.JSON](https://github.com/open-swift/C7/blob/master/Sources/JSON.swift) and back
 
 Based on [MongoDB's BSON description](https://docs.mongodb.com/v3.0/reference/mongodb-extended-json/), but implemented in a "best effort" fashion to make the output as close to native JSON as possible (so this is *not* Extended JSON exactly).
 
 ```swift
 let myJSON = myBSON.toJSON()
+```
+
+```swift
+let myBSON = myJSON.toBSON()
 ```
 
 :gift_heart: Contributing
