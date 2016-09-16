@@ -24,11 +24,12 @@ Contributing
 ------------
 Please create an issue with a description of your problem or open a pull request with a fix.
 
-:v: License
+License
 -------
 MIT
 
-:alien: Author
+Authors
 ------
 Honza Dvorsky - http://honzadvorsky.com, [@czechboy0](http://twitter.com/czechboy0)
+
 Joannis Orlandos - http://orlandos.nl
